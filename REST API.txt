@@ -1,0 +1,34 @@
+client server architecture
+1. client is any end system that initiates a request wanting some information.
+2. server is any end system that can receive the request and gives the response.
+
+API - Application Programming Interface
+1. API provides us a way to use the functionality of our code with properly defined input , output and functionality.
+
+What is a framework and library?
+Framework is a bunch of libraries which can do a wide variety of tasks.
+Library can do a specific task.
+
+REST
+1. Representational State Transfer - a set of guidelines to drive an architecture.
+
+REST API
+APIs that follow the REST guidelines is called REST APIs. The guidelines to prepare the good APIs
+1. REST prefers a client and server communication should happen over HTTP.
+2. REST prefers JSON as the format to send and receive data.
+3. Gives the guidelines on how the URLs should look like.
+4. In REST the main source of information is considered as a resource. Endpoints/URL should be a noun 
+and not action verb.The nouns that we mention are expected to be plural.
+5. Every REST endpoint should be defined along with HTTP methods like GET, POST, DELETE, PACTH, PUT
+6. REST expects to have API versioning and HTTP codes.
+7. We use nesting for relationships and not more that 3 levels of nesting is suggested. 
+    /blogs/13/comments
+    /blogs/13/comments/23
+
+We also have browser APIs
+1. settimeout
+
+
+
+
+
