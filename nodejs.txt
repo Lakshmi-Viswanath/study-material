@@ -1,0 +1,36 @@
+Node Js 
+1. Its not a javascript backend framework. It can be single threaded or multi threaded based on 
+what functionality is performed.
+2. It is a JS runtime environment which provides necessary 
+infrastructure for the code to execute.
+3. runtime is a process which provides necessary infrastructure 
+for the code to execute.
+4. It is a open source JS environment which provides addition ability
+for it like to access Operating System, files etc
+5. Nodejs provides the infrastructure to JS code to use features of Libuv and 
+v8 engine and many other. It is a intermediatery layer.
+6. V8 engine is responsible for compilation, garbage collection(orinoco), memory managment
+and execution.does not contain browser features or OS features.
+
+orinoco is the grabage collector. It uses colour coding like black(checked objects) grey(may or may 
+not be used objects) and white(unchecked objects).
+1. minimizes fragmentation
+2. It segregates memory into  Old generation objects (survived multiple garbage collection) and young
+generation objects -new objects.
+3. Marks the objects in the young fragment and sweeps it out. The others objects are moved to old objects fragment.
+its like movement. It also has a remembered set to diffreentiate between referenced objects and unrefered objects.
+
+v8 engine also does compilation. it uses ignition(an interpreter) which converts the JS code to bytecode.
+the Bytecode is later used by turbofan and then optimized compiled.
+
+Libuv
+1. its written in c.
+2. it provides cross platform support.
+3. it is the driving force that supports node js async programming.(event driven architrcture)
+4. it supports event loop
+5. TCP connections /sockets support.
+6. it provides thread pool, timers
+Libuv enables event loop, handles(long lived resources ex-timers,sockets),
+request(short lived resources).
+7. gives access to OS
+

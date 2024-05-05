@@ -1,0 +1,3 @@
+https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick
+Node js Event Loop
+1. It performs non blocking IO requests
